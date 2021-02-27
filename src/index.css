@@ -1,0 +1,33 @@
+.center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.counter_large {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.white_sqaure_box{
+    width:100px;
+    height:100px;
+    border:solid 1px grey;
+    background-color: white;
+}
+
+.black_sqaure_box{
+    width:100px;
+    height:100px;
+    border:solid 1px grey;
+    background-color: black;
+}
